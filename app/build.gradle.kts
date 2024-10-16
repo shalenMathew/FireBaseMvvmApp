@@ -34,6 +34,11 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
+    buildFeatures{
+        viewBinding=true
+    }
+
 }
 
 dependencies {
@@ -49,4 +54,9 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     implementation(platform("com.google.firebase:firebase-bom:33.4.0"))
+
+    //Navigation Components
+    implementation("androidx.navigation:navigation-fragment-ktx:2.7.6")
+    implementation("androidx.navigation:navigation-ui-ktx:2.7.6")
+
 }
