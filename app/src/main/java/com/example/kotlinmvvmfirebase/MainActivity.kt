@@ -35,6 +35,8 @@ class MainActivity : AppCompatActivity() {
 
         // this is master
 
+        // u need to commit before switching branches to save ur changes
+
 
     }
 }
