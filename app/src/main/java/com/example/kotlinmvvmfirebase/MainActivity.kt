@@ -14,23 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        val hashmap = mutableMapOf<String,String>()
-        hashmap.put("User1","smj")
-        hashmap.put("User2","jia")
-        hashmap.put("User3","play")
-        hashmap.put("User4","mangae")
-
-      FirebaseFirestore.getInstance()
-          .collection("users")
-          .add(hashmap)
-          .addOnSuccessListener { it->
-
-          }
-          .addOnFailureListener {
-
-          }.addOnCompleteListener{it->
-
-          }
+        // this is navigation ok
 
     }
 }
