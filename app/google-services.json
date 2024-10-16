@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "677447584281",
+    "project_id": "mvvm-kotlin-app",
+    "storage_bucket": "mvvm-kotlin-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677447584281:android:c4b66ca806a01a9d11f888",
+        "android_client_info": {
+          "package_name": "com.example.kotlinmvvmfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-_DYgwkFaVjxeJAYw8Hg9VBqA9Zr5_Ys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
